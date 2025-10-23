@@ -1,0 +1,14 @@
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\bin\Debug\net9.0\FizzBuzz.exe
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\bin\Debug\net9.0\FizzBuzz.deps.json
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\bin\Debug\net9.0\FizzBuzz.runtimeconfig.json
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\bin\Debug\net9.0\FizzBuzz.dll
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\bin\Debug\net9.0\FizzBuzz.pdb
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.AssemblyInfoInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.AssemblyInfo.cs
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.dll
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\refint\FizzBuzz.dll
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.pdb
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\FizzBuzz.genruntimeconfig.cache
+C:\dev\repos\csharp-fundamentals\CsharpFundamentals\FizzBuzz\obj\Debug\net9.0\ref\FizzBuzz.dll
