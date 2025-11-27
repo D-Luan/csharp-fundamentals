@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MyXamlApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MyXamlApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
