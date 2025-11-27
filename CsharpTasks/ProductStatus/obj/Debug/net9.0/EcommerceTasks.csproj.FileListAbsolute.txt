@@ -1,0 +1,15 @@
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\EcommerceTasks.exe
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\EcommerceTasks.deps.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\EcommerceTasks.runtimeconfig.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\EcommerceTasks.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\EcommerceTasks.pdb
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.AssemblyInfoInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.AssemblyInfo.cs
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.csproj.CoreCompileInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.sourcelink.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\refint\EcommerceTasks.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.pdb
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\EcommerceTasks.genruntimeconfig.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ref\EcommerceTasks.dll

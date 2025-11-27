@@ -1,0 +1,15 @@
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\ProductStatus.exe
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\ProductStatus.deps.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\ProductStatus.runtimeconfig.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\ProductStatus.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\bin\Debug\net9.0\ProductStatus.pdb
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.AssemblyInfoInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.AssemblyInfo.cs
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.csproj.CoreCompileInputs.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.sourcelink.json
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\refint\ProductStatus.dll
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.pdb
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ProductStatus.genruntimeconfig.cache
+C:\dev\repos\csharp-fundamentals\CsharpTasks\ProductStatus\obj\Debug\net9.0\ref\ProductStatus.dll

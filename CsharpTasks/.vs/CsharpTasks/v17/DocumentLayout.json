@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\EcommerceTasks.csproj|c:\\dev\\repos\\csharp-fundamentals\\csharptasks\\productstatus\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\EcommerceTasks.csproj|solutionrelative:productstatus\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\EcommerceTasks.csproj|c:\\dev\\repos\\csharp-fundamentals\\csharptasks\\productstatus\\servicetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\EcommerceTasks.csproj|solutionrelative:productstatus\\servicetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|c:\\dev\\repos\\csharp-fundamentals\\csharptasks\\productstatus\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|solutionrelative:productstatus\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|c:\\dev\\repos\\csharp-fundamentals\\csharptasks\\productstatus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|solutionrelative:productstatus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|c:\\dev\\repos\\csharp-fundamentals\\csharptasks\\productstatus\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F04BE-45CB-4D6B-A42F-24397052B48A}|ProductStatus\\ProductStatus.csproj|solutionrelative:productstatus\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceTag.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\ServiceTag.cs",
+              "RelativeDocumentMoniker": "ProductStatus\\ServiceTag.cs",
+              "ToolTip": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\ServiceTag.cs",
+              "RelativeToolTip": "ProductStatus\\ServiceTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:09:17.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Customer.cs",
+              "RelativeDocumentMoniker": "ProductStatus\\Customer.cs",
+              "ToolTip": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Customer.cs",
+              "RelativeToolTip": "ProductStatus\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:07:03.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\StockService.cs",
+              "RelativeDocumentMoniker": "ProductStatus\\StockService.cs",
+              "ToolTip": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\StockService.cs",
+              "RelativeToolTip": "ProductStatus\\StockService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:22:06.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Product.cs",
+              "RelativeDocumentMoniker": "ProductStatus\\Product.cs",
+              "ToolTip": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Product.cs",
+              "RelativeToolTip": "ProductStatus\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:20:22.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Program.cs",
+              "RelativeDocumentMoniker": "ProductStatus\\Program.cs",
+              "ToolTip": "C:\\dev\\repos\\csharp-fundamentals\\CsharpTasks\\ProductStatus\\Program.cs",
+              "RelativeToolTip": "ProductStatus\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:19:54.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
