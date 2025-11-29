@@ -32,13 +32,18 @@ namespace MatchGame
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            tenthsOfSecondsElapsed++;
+            tenthsOfSecondsElapsed--;
             timeTextBlock.Text = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
             
             if (matchesFound == 8)
             {
                 timer.Stop();
-                timeTextBlock.Text = timeTextBlock.Text + " - Play again?";
+                timeTextBlock.Text = timeTextBlock.Text + " - Win! Play again?";
+            }
+            else if (tenthsOfSecondsElapsed <= 0)
+            {
+                timer.Stop();
+                timeTextBlock.Text = "0.0s - Timed Out! Play again?";
             }
         }
 
@@ -61,7 +66,7 @@ namespace MatchGame
             }
 
             timer.Start();
-            tenthsOfSecondsElapsed = 0;
+            tenthsOfSecondsElapsed = 200;
             matchesFound = 0;
         }
 
@@ -98,6 +103,8 @@ namespace MatchGame
 
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            if (tenthsOfSecondsElapsed <= 0) return;
+
             TextBlock textBlock = sender as TextBlock;
 
             if (findingMatch == false)
@@ -121,7 +128,7 @@ namespace MatchGame
 
         private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (matchesFound == 8)
+            if (matchesFound == 8 || tenthsOfSecondsElapsed <= 0)
             {
                 SetUpGame();
             }
