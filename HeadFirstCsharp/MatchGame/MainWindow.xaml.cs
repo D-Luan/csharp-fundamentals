@@ -44,17 +44,7 @@ namespace MatchGame
 
         private void SetUpGame()
         {
-            List<string> animalEmoji = new List<string>()
-            {
-                "🐙", "🐙",
-                "🐡", "🐡",
-                "🐘", "🐘",
-                "🐳", "🐳",
-                "🐪", "🐪",
-                "🦕", "🦕",
-                "🦘", "🦘",
-                "🦔", "🦔",
-            };
+            List<string> animalEmoji = GetAnimalEmojiList();
 
             Random random = new Random();
 
@@ -73,6 +63,34 @@ namespace MatchGame
             timer.Start();
             tenthsOfSecondsElapsed = 0;
             matchesFound = 0;
+        }
+
+        private static List<string> GetAnimalEmojiList()
+        {
+            List<string> animalEmojiPair = new List<string>();
+
+            List<string> animalEmoji = new List<string>()
+        {
+            "🐙", "🐡", "🐘", "🐳", "🐪", "🦕", "🦘", "🦔", "🦇", "🦉", "🦒", "🐅", "🦏", "🦓", "🦧", "🐩"
+        };
+
+            Random random = new Random();
+
+            for (int i = 0; i < 8; i++)
+            {
+                string nextEmoji;
+
+                do
+                {
+                    int index = random.Next(animalEmoji.Count);
+                    nextEmoji = animalEmoji[index];
+                } while (animalEmojiPair.Contains(nextEmoji));
+
+                animalEmojiPair.Add(nextEmoji);
+                animalEmojiPair.Add(nextEmoji);
+            }
+
+            return animalEmojiPair;
         }
 
         TextBlock lastTextBlockClicked;
