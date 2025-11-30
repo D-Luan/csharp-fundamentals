@@ -27,7 +27,6 @@ namespace MatchGame
 
             timer.Interval = TimeSpan.FromSeconds(.1);
             timer.Tick += Timer_Tick;
-            SetUpGame();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -132,6 +131,29 @@ namespace MatchGame
             {
                 SetUpGame();
             }
+        }
+
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            StartScreen.Visibility = Visibility.Collapsed;
+            GameScreen.Visibility = Visibility.Visible;
+            SetUpGame();
+        }
+        private void BackToMenu_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Stop();
+            GameScreen.Visibility = Visibility.Collapsed;
+            StartScreen.Visibility = Visibility.Visible;
+        }
+
+        private void RestartGame_Click(object sender, RoutedEventArgs e)
+        {
+            SetUpGame();
+        }
+
+        private void TimeTextBlock_MouseDown(object sender, RoutedEventArgs e)
+        {
+            SetUpGame();
         }
     }
 }
