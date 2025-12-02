@@ -13,14 +13,32 @@
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="Memory Game" FontSize="30" FontWeight="Bold" Margin="0,0,0,20"/>
                 <Button Content="PLAY" FontSize="24" Padding="20,10" Click="PlayButton_Click"/>
+                <Button Content="RECORDS" FontSize="24" Padding="20,10" Margin="0,10,0,0" Click="RecordButton_Click"/>
             </StackPanel>
+        </Grid>
+
+        <Grid x:Name="RecordsScreen" Visibility="Collapsed" Background="White" Panel.ZIndex="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="🏆 Best Times" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0" Grid.Row="0"/>
+            <TextBlock x:Name="FirstPlaceTxt" Text="1º - Empty" FontSize="24" Foreground="Gold" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+            <TextBlock x:Name="SecondPlaceTxt" Text="2º - Empty" FontSize="20" Foreground="Silver" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
+            <TextBlock x:Name="ThirdPlaceTxt" Text="3º - Empty" FontSize="18" Foreground="Brown" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3"/>
+
+            <Button Content="Back to Menu" FontSize="20" Padding="10,5" Margin="0,0,0,20" HorizontalAlignment="Center" Click="BackToMenu_Click" Grid.Row="4"/>
         </Grid>
 
         <DockPanel x:Name="GameScreen" Visibility="Collapsed" LastChildFill="True">
 
             <Menu DockPanel.Dock="Top">
-                <MenuItem Header="Archives">
-                    <MenuItem Header="Restart" Click="TimeTextBlock_MouseDown"/>
+                <MenuItem Header="Options">
+                    <MenuItem Header="Restart" Click="RestartGame_Click"/>
                     <MenuItem Header="Return to Menu" Click="BackToMenu_Click"/>
                 </MenuItem>
             </Menu>

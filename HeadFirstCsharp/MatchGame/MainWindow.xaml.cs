@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Collections.Generic;
 
 namespace MatchGame
 {
@@ -20,6 +21,8 @@ namespace MatchGame
         DispatcherTimer timer = new DispatcherTimer();
         int tenthsOfSecondsElapsed;
         int matchesFound;
+
+        List<int> highScores = new List<int>();
         
         public MainWindow()
         {
@@ -37,6 +40,9 @@ namespace MatchGame
             if (matchesFound == 8)
             {
                 timer.Stop();
+
+                UpdateHighScores(tenthsOfSecondsElapsed);
+
                 timeTextBlock.Text = timeTextBlock.Text + " - Win! Play again?";
             }
             else if (tenthsOfSecondsElapsed <= 0)
@@ -133,9 +139,15 @@ namespace MatchGame
             }
         }
 
+        private void RestartGame_Click(object sender, RoutedEventArgs e)
+        {
+            SetUpGame();
+        }
+
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
             StartScreen.Visibility = Visibility.Collapsed;
+            RecordsScreen.Visibility = Visibility.Collapsed;
             GameScreen.Visibility = Visibility.Visible;
             SetUpGame();
         }
@@ -143,17 +155,55 @@ namespace MatchGame
         {
             timer.Stop();
             GameScreen.Visibility = Visibility.Collapsed;
+            RecordsScreen.Visibility = Visibility.Collapsed;
             StartScreen.Visibility = Visibility.Visible;
         }
 
-        private void RestartGame_Click(object sender, RoutedEventArgs e)
+        private void UpdateHighScores(int finalScore)
         {
-            SetUpGame();
+            highScores.Add(finalScore);
+
+            highScores.Sort();
+            highScores.Reverse();
+
+            if (highScores.Count > 3)
+            {
+                highScores.RemoveRange(3, highScores.Count - 3);
+            }
+
+            UpdateRecordsUI();
         }
 
-        private void TimeTextBlock_MouseDown(object sender, RoutedEventArgs e)
+        private void UpdateRecordsUI()
         {
-            SetUpGame();
+            if (FirstPlaceTxt == null)
+            {
+                return;
+            }
+            
+            if (highScores.Count >= 1)
+            {
+                FirstPlaceTxt.Text = "1º - " + (highScores[0] / 10F).ToString("0.0s");
+            }
+
+            if (highScores.Count >= 2)
+            {
+                SecondPlaceTxt.Text = "2º - " + (highScores[1] / 10F).ToString("0.0s");
+            }
+
+            if (highScores.Count >= 3)
+            {
+                ThirdPlaceTxt.Text = "3º - " + (highScores[2] / 10F).ToString("0.0s");
+            }
+        }
+
+        private void RecordButton_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateRecordsUI();
+
+            StartScreen.Visibility = Visibility.Collapsed;
+            GameScreen.Visibility = Visibility.Collapsed;
+            RecordsScreen.Visibility = Visibility.Visible;
         }
     }
 }
